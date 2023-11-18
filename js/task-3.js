@@ -32,7 +32,8 @@ const profile = {
   },
 
   updatePlayTime(hours) {
-    this.playTime = hours;
+    
+    this.playTime += hours;
   },
 
   getInfo() {
